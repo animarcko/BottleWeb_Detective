@@ -34,6 +34,7 @@ def about():
         year=datetime.now().year
     )
 
+
 @route('/services')
 @view('services')
 def services():
