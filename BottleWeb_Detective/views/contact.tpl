@@ -99,9 +99,7 @@
                     <p class="text-muted mb-4 fs-5">
                         Наш офис находится в центре Санкт-Петербурга, в пешей доступности от метро.
                     </p>
-                    <span class="badge badge-years fs-6 px-4 py-2 mb-3">
-                        🚇 Метро: Невский проспект / Гостиный двор
-                    </span>
+                   <span class="badge bg-primary text-white mb-2 p-2 fs-6">🚇 Метро: Невский проспект / Гостиный двор</span>
                     <p class="small text-muted">
                         *Предварительная запись по телефону обязательна
                     </p>
