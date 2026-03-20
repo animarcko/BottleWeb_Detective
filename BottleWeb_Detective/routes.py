@@ -1,4 +1,4 @@
-"""
+п»ї"""
 Routes and views for the bottle application.
 """
 
@@ -40,7 +40,7 @@ def about():
 def services():
     """Renders the services page."""
     return dict(
-        title='Услуги',
+        title='Services',
         year=datetime.now().year
     )
 
@@ -49,7 +49,7 @@ def services():
 def team():
     """Renders the team page."""
     return dict(
-        title='Сотрудники',
+        title='Employee',
         year=datetime.now().year
     )
 
