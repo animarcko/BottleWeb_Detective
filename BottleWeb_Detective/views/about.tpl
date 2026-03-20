@@ -55,7 +55,7 @@
     <!-- История агентства -->
     <div class="row mb-5 align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0">
-            <span class="badge-years rounded-pill mb-3 d-inline-block">С 2015 года</span>
+            <span class="badge badge-years rounded-pill mb-3 d-inline-block">С 2015 года</span>
             <h2 class="mb-4">История нашего агентства</h2>
             <p class="fs-5 text-muted mb-3">
                 Детективное агентство «Тайна» было основано в 2015 году группой профессионалов, имеющих богатый опыт работы в правоохранительных органах и частном сыске.
@@ -159,30 +159,30 @@
         <h2 class="text-center mb-5">Почему выбирают нас</h2>
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="text-center p-4">
+                <div class="text-center p-4 principle-card">
                     <div class="mb-3">
                         <span class="display-4">🎓</span>
                     </div>
                     <h5 class="fw-bold">Опыт и компетенции</h5>
-                    <p class="text-muted">Каждый сотрудник имеет профильное образование и практический опыт от 5 лет в сфере безопасности и сыска.</p>
+                    <p class="text-muted mb-0">Каждый сотрудник имеет профильное образование и практический опыт от 5 лет в сфере безопасности и сыска.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="text-center p-4">
+                <div class="text-center p-4 principle-card">
                     <div class="mb-3">
                         <span class="display-4">🛡️</span>
                     </div>
                     <h5 class="fw-bold">Лицензированная деятельность</h5>
-                    <p class="text-muted">Работаем официально, имеем все необходимые лицензии и страховку ответственности.</p>
+                    <p class="text-muted mb-0">Работаем официально, имеем все необходимые лицензии и страховку ответственности.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="text-center p-4">
+                <div class="text-center p-4 principle-card">
                     <div class="mb-3">
                         <span class="display-4">📊</span>
                     </div>
                     <h5 class="fw-bold">Современные технологии</h5>
-                    <p class="text-muted">Используем передовые методы сбора и анализа информации, работаем с большими данными.</p>
+                    <p class="text-muted mb-0">Используем передовые методы сбора и анализа информации, работаем с большими данными.</p>
                 </div>
             </div>
         </div>
@@ -221,25 +221,25 @@
             <h3 class="text-center mb-4">Наши сертификаты и партнёры</h3>
             <div class="row g-4 text-center">
                 <div class="col-6 col-md-3">
-                    <div class="p-3">
+                    <div class="p-3 service-card">
                         <span class="display-6">📜</span>
                         <p class="mt-2 mb-0 small">Лицензия МВД</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="p-3">
+                    <div class="p-3 service-card">
                         <span class="display-6">🤝</span>
                         <p class="mt-2 mb-0 small">Ассоциация частных детективов</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="p-3">
+                    <div class="p-3 service-card">
                         <span class="display-6">⚖️</span>
                         <p class="mt-2 mb-0 small">Палата адвокатов</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="p-3">
+                    <div class="p-3 service-card">
                         <span class="display-6">🏢</span>
                         <p class="mt-2 mb-0 small">Союз страховщиков</p>
                     </div>
@@ -251,7 +251,7 @@
     <!-- Призыв к действию -->
     <div class="row mb-5">
         <div class="col-md-10 mx-auto">
-            <div class="bg-dark text-white p-4 p-md-5 rounded-4 text-center">
+            <div class="bg-dark text-white p-4 p-md-5 rounded-4 text-center principle-card">
                 <h3 class="mb-3">Готовы доверить нам своё дело?</h3>
                 <p class="mb-4 fs-5 opacity-75">
                     Получите бесплатную консультацию и узнайте, как мы можем помочь именно вам
