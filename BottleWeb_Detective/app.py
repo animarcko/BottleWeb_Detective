@@ -1,4 +1,4 @@
-"""
+﻿"""
 This script runs the application using a development server.
 """
 
@@ -13,6 +13,7 @@ if '--debug' in sys.argv[1:] or 'SERVER_DEBUG' in os.environ:
     # Debug mode will enable more verbose output in the console window.
     # It must be set at the beginning of the script.
     bottle.debug(True)
+
 
 def wsgi_app():
     """Returns the application to make available through wfastcgi. This is used
