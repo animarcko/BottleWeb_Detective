@@ -35,6 +35,15 @@ def about():
     )
 
 
+@route('/employees')
+@view('team')
+def services():
+    """Renders the team page."""
+    return dict(
+        title='Team',
+        year=datetime.now().year
+    )
+
 @route('/services')
 @view('services')
 def services():
