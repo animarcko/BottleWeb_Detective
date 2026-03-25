@@ -6,7 +6,6 @@
     <title>Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Простые стили как у студента */
         body {
             background-color: #f5f5f5;
         }
@@ -193,7 +192,9 @@
             <!-- Андреева Екатерина -->
             <div class="col-md-4">
                 <div class="employee-card">
-                    <div class="employee-photo">👩</div>
+                    <div class="employee-photo">
+                        <img src="/static/img/kate.jpg" alt="Андреева Екатерина" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
                     <div class="employee-info">
                         <div class="employee-name">Андреева Екатерина</div>
                         <div class="employee-position">Ведущий детектив</div>
@@ -207,7 +208,9 @@
             <!-- Скулябина Маргарита -->
             <div class="col-md-4">
                 <div class="employee-card">
-                    <div class="employee-photo">👩‍💼</div>
+                    <div class="employee-photo">
+                        <img src="/static/img/rita.jpg" alt="Скулябина Маргарита" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
                     <div class="employee-info">
                         <div class="employee-name">Скулябина Маргарита</div>
                         <div class="employee-position">Детектив-аналитик</div>
@@ -221,7 +224,9 @@
             <!-- Пароменкова Ольга -->
             <div class="col-md-4">
                 <div class="employee-card">
-                    <div class="employee-photo">👨</div>
+                    <div class="employee-photo">
+                        <img src="/static/img/ola.jpg" alt="Пароменкова Ольга" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
                     <div class="employee-info">
                         <div class="employee-name">Пароменкова Ольга</div>
                         <div class="employee-position">Оперативный сотрудник</div>
