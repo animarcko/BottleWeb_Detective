@@ -110,16 +110,7 @@
                 </div>
             </div>
             
-            <!-- CTA блок -->
-            <div class="text-center">
-                <div class="principle-card bg-dark text-white p-4 p-md-5 rounded-4">
-                    <h3 class="mb-3">Нужна консультация?</h3>
-                    <p class="mb-4 opacity-75">
-                        Оставьте заявку, и наш специалист свяжется с вами в ближайшее время
-                    </p>
-                    <a href="#" class="btn btn-primary btn-hover-effect btn-lg px-5">Заказать обратный звонок</a>
-                </div>
-            </div>
+           
         </div>
     </div>
 </div>

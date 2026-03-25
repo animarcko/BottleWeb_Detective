@@ -115,44 +115,59 @@
     <div class="mt-4 pt-2">
         <h2 class="text-center mb-5">Наши принципы работы</h2>
         <div class="row g-4">
+
             <div class="col-md-6 col-lg-3">
-                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100">
+                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100 text-center">
                     <div class="mb-3">
-                        <span class="display-6">🔒</span>
+                        <img src="/static/images/confidentiality.png" alt="Конфиденциальность" class="icon-img d-block mx-auto img-fluid">
                     </div>
                     <h5 class="fw-bold text-primary">Конфиденциальность</h5>
-                    <p class="mt-2 mb-0">Все сведения о наших клиентах строго защищены и не передаются третьим лицам. Мы гарантируем полную анонимность.</p>
+                    <p class="mt-2 mb-0">
+                        Все сведения о наших клиентах строго защищены и не передаются третьим лицам. Мы гарантируем полную анонимность.
+                    </p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-3">
-                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100">
+                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100 text-center">
                     <div class="mb-3">
-                        <span class="display-6">⚖️</span>
+                        <img src="/static/images/law.png" alt="Законность" class="icon-img d-block mx-auto img-fluid">
                     </div>
                     <h5 class="fw-bold text-primary">Законность</h5>
-                    <p class="mt-2 mb-0">Вся работа проводится в строгом соответствии с действующим законодательством РФ. Мы не нарушаем закон, но знаем все его возможности.</p>
+                    <p class="mt-2 mb-0">
+                        Вся работа проводится в строгом соответствии с действующим законодательством РФ. Мы не нарушаем закон, но знаем все его возможности.
+                    </p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-3">
-                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100">
+                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100 text-center">
                     <div class="mb-3">
-                        <span class="display-6">🤲</span>
+                        <img src="/static/images/honesty.png" alt="Честность" class="icon-img d-block mx-auto img-fluid">
                     </div>
                     <h5 class="fw-bold text-primary">Честность</h5>
-                    <p class="mt-2 mb-0">Мы не обещаем невозможного, но делаем всё, чтобы вы получили результат. Честная оценка шансов — наша политика.</p>
+                    <p class="mt-2 mb-0">
+                        Мы не обещаем невозможного, но делаем всё, чтобы вы получили результат. Честная оценка шансов — наша политика.
+                    </p>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-3">
-                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100">
+                <div class="principle-card p-4 bg-white rounded-4 shadow-sm h-100 text-center">
                     <div class="mb-3">
-                        <span class="display-6">🎯</span>
+                        <img src="/static/images/target.png" alt="Результативность" class="icon-img d-block mx-auto img-fluid">
                     </div>
                     <h5 class="fw-bold text-primary">Результативность</h5>
-                    <p class="mt-2 mb-0">Вы платите за результат, а не за процесс. Каждое дело доводится до логического завершения с предоставлением отчёта.</p>
+                    <p class="mt-2 mb-0">
+                        Вы платите за результат, а не за процесс. Каждое дело доводится до логического завершения с предоставлением отчёта.
+                    </p>
                 </div>
             </div>
+
         </div>
     </div>
+
+
 
     <!-- Наши преимущества -->
     <div class="mt-5 pt-4">
@@ -195,8 +210,8 @@
             <div class="col-md-8 col-lg-6">
                 <div class="card team-card border-0 shadow-sm rounded-4 overflow-hidden">
                     <div class="card-body p-4 text-center">
-                        <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 100px; height: 100px;">
-                            <span class="display-1">👤</span>
+                        <div class="mb-3">
+                            <img src="/static/images/man.png" alt="Конфиденциальность" class="icon-img d-block mx-auto img-fluid">
                         </div>
                         <h4 class="fw-bold mb-2">Александр Владимирович Волков</h4>
                         <p class="text-primary fw-bold mb-3">Основатель и генеральный директор</p>

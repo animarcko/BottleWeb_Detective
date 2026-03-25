@@ -164,7 +164,6 @@
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="/contact" class="btn btn-primary btn-hover-effect btn-lg px-4">Связаться с агентством</a>
-                    <a href="/contact" class="btn btn-outline-secondary btn-hover-effect btn-lg px-4">Заполнить форму обратной связи</a>
                 </div>
                 <p class="mt-4 text-muted small">Бесплатная консультация по вашему вопросу — позвоните или напишите нам</p>
             </div>
