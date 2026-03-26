@@ -83,6 +83,35 @@
             </div>
         </div>
 
+        <!-- Наши достижения -->
+        <div class="row mb-5 mt-5">
+            <div class="col-12">
+                <div class="simple-info-block text-center p-4 bg-light rounded-3">
+                    <h4 class="mb-3">Наши достижения</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="achievement-item">
+                                <h3 class="text-primary mb-0">1500+</h3>
+                                <p class="text-muted">Раскрытых дел</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="achievement-item">
+                                <h3 class="text-primary mb-0">98%</h3>
+                                <p class="text-muted">Успешных расследований</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="achievement-item">
+                                <h3 class="text-primary mb-0">12</h3>
+                                <p class="text-muted">Лет на рынке</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- контактный блок -->
         <div class="row mb-5 mt-5">
         <div class="col-md-10 mx-auto">
