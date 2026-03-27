@@ -1,6 +1,13 @@
-/* Îáùèå ñòèëè äëÿ âñåãî ñàéòà */
+/* Общие стили для всего сайта */
 
-/* Êàðòî÷êè ñ ïðèíöèïàìè */
+/* Применение шрифта */
+.navbar-brand {
+    font-family: 'Farabee', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Карточки с принципами */
 .principle-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border-left: 4px solid #0d6efd;
@@ -11,13 +18,13 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
-/* Ôóòåð */
+/* Футер */
 .footer {
     background-color: #f8f9fa;
     border-top: 1px solid #dee2e6;
 }
 
-/* Êàðòî÷êè êîìàíäû */
+/* Карточки команды */
 .team-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -27,7 +34,7 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
-/* Áåéäæè ñ ãîäàìè */
+/* Бейджи с годами */
 .badge-years {
     background-color: #0d6efd;
     color: white;
@@ -35,14 +42,14 @@
     padding: 0.5rem 1rem;
 }
 
-/* Êàðòî÷êè ñî ñòàòèñòèêîé */
+/* Карточки со статистикой */
 .stat-card {
     border: none;
     background: linear-gradient(135deg, #1a1e24 0%, #2c3038 100%);
     color: white;
 }
 
-/* Îáùèå êàðòî÷êè óñëóã */
+/* Общие карточки услуг */
 .service-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: none;
@@ -53,12 +60,12 @@
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
-/* Hero ñåêöèè */
+/* Hero секции */
 .hero-section {
     background-color: #1a1e24;
 }
 
-/* Àíèìàöèÿ äëÿ êíîïîê */
+/* Анимация для кнопок */
 .btn-hover-effect {
     transition: all 0.3s ease;
 }
@@ -68,13 +75,13 @@
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-/* Ñòèëè äëÿ êîíòàêòíîé èíôîðìàöèè */
+/* Стили для контактной информации */
 .contact-info {
     background-color: #f8f9fa;
     border-radius: 1rem;
 }
 
-/* Ðàçäåëèòåëè */
+/* Разделители */
 .divider-custom {
     width: 5rem;
     height: 0.25rem;
@@ -82,7 +89,7 @@
     margin: 1rem auto;
 }
 
-/* Àäàïòèâíûå îòñòóïû */
+/* Адаптивные отступы */
 @media (max-width: 768px) {
     .hero-section h1 {
         font-size: 2rem;
@@ -93,22 +100,22 @@
     }
 }
 
-/* Ôîíîâûé öâåò äëÿ âñåé ñòðàíèöû */
+/* Фоновый цвет для всей страницы */
 body {
     background-color: #f5f5f5;
 }
 
 
-/* Hero ñåêöèè */
+/* Hero секции */
 .hero-section {
-    background-color: #1a1e24;
+    background-color: #343a40;
     color: white;
     padding: 40px 0;
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Çàãîëîâêè ñåêöèé */
+/* Заголовки секций */
 .section-title {
     text-align: center;
     margin-bottom: 30px;
@@ -117,7 +124,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* Êàðòî÷êè ñîòðóäíèêîâ */
+/* Карточки сотрудников */
 .employee-card {
     background: white;
     border-radius: 10px;
@@ -125,16 +132,14 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     height: 100%;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: none;
 }
 
-/* Ýôôåêò ïðè íàâåäåíèè íà êàðòî÷êó ñîòðóäíèêà */
+    /* Эффект при наведении на карточку сотрудника */
     .employee-card:hover {
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
-/* Áëîê ñ ôîòî ñîòðóäíèêà */
+/* Блок с фото сотрудника */
 .employee-photo {
     width: 100%;
     height: 200px;
@@ -146,49 +151,43 @@ body {
     font-size: 48px;
 }
 
-/* Áëîê ñ èíôîðìàöèåé î ñîòðóäíèêå */
+/* Блок с информацией о сотруднике */
 .employee-info {
     padding: 15px;
 }
 
-/* Èìÿ ñîòðóäíèêà */
+/* Имя сотрудника */
 .employee-name {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 8px;
-    color: #212529;
+    margin-bottom: 5px;
 }
 
-/* Äîëæíîñòü ñîòðóäíèêà */
+/* Должность сотрудника */
 .employee-position {
     color: #007bff;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    border-left: 3px solid #007bff;
-    padding-left: 10px;
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
-/* Îòäåë ñîòðóäíèêà */
+/* Отдел сотрудника */
 .employee-department {
     color: #6c757d;
-    font-size: 0.95rem;
-    margin-bottom: 15px;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
 }
 
-/* Áåéäæ ñîòðóäíèêà (ñòàòóñ, îïûò) */
+/* Бейдж сотрудника (статус, опыт) */
 .employee-badge {
     display: inline-block;
     background-color: #343a40;
     color: white;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
 }
 
-/* Êàðòî÷êà óñëóãè */
+/* Карточка услуги */
 .service-card {
     background: white;
     border-radius: 10px;
@@ -196,15 +195,16 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-    /* Ýôôåêò ïðè íàâåäåíèè íà êàðòî÷êó óñëóãè */
+    /* Эффект при наведении на карточку услуги */
     .service-card:hover {
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
         transform: translateY(-3px);
     }
 
-/* Áëîê ñ ôîòî óñëóãè */
+/* Блок с фото услуги */
 .service-photo {
     width: 100%;
     height: 200px;
@@ -216,44 +216,50 @@ body {
     font-size: 48px;
 }
 
-/* Áëîê ñ èíôîðìàöèåé îá óñëóãå */
+/* Блок с информацией об услуге */
 .service-info {
     padding: 20px;
 }
 
-/* Íàçâàíèå óñëóãè */
+/* Название услуги */
 .service-title {
     font-size: 1.35rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    color: #212529;
 }
 
-/* Ñòîèìîñòü óñëóãè */
+/* Стоимость услуги */
 .service-price {
     color: #007bff;
-    font-style: italic;
-    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    border-left: 3px solid #007bff;
+    padding-left: 10px;
 }
 
-/* Îïèñàíèå óñëóãè */
+/* Описание услуги */
 .service-desc {
     color: #6c757d;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 
-/* Áåéäæ óñëóãè */
+/* Бейдж услуги */
 .service-badge {
     display: inline-block;
     background-color: #343a40;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.8rem;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 
 
-/* Ôóòåð ñàéòà (íèæíÿÿ ÷àñòü ñòðàíèöû) */
+/* Футер сайта (нижняя часть страницы) */
 footer {
     background-color: #f8f9fa;
     padding: 20px 0;
@@ -263,23 +269,15 @@ footer {
 }
 
 
-/* Îòñòóïû */
+/* Отступы */
 .mt-4 {
     margin-top: 30px;
 }
 
-.btn-hover-effect:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.mb-4 {
+    margin-bottom: 30px;
 }
 
-/* Àäàïòèâ */
-@media (max-width: 768px) {
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-
-    .hero-section .lead {
-        font-size: 1.2rem;
-    }
+.text-center {
+    text-align: center;
 }
