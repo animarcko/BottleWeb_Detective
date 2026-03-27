@@ -118,7 +118,7 @@
             <div class="bg-dark text-white p-4 p-md-5 rounded-4 text-center">
                 <h3 class="mb-3">Хотите работать с нами?</h3>
                 <p class="mb-4 fs-5 opacity-75">
-                    Присылайте резюме на почту: hr@taena.ru
+                    Присылайте резюме на почту: ekaterinaandreeva@gmail.com
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="/contact" class="btn btn-primary btn-hover-effect btn-lg px-5">Связаться с нами</a>

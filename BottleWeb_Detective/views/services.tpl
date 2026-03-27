@@ -209,7 +209,7 @@
                             <span class="text-primary">*Срочные заказы выполняем в течение 24 часов.</span></p>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="mt-2">services@taena.ru</div>
+                            <div class="mt-2">ekaterinaandreeva@gmail.com</div>
                         </div>
                     </div>
                 </div>
