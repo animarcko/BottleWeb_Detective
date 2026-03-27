@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="site.css" rel="stylesheet">
 </head>
 <body>
 
@@ -51,11 +51,12 @@
     </div>
 </div>
 
+
 <div class="container">
     <!-- Блок "О нас" с историей и принципами -->
     <div class="row mb-5">
         <div class="col-lg-8 mx-auto">
-            <h1 class="text-center mb-4">Детективное агентство «Тайна»</h1>
+           
             <p class="lead text-center">
                 Наше бюро детективных услуг работает с 2015 года и специализируется на сборе и анализе информации для частных лиц и организаций.
             </p>
@@ -69,6 +70,11 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid p-0 mb-5">
+        <img src="/static/images/back3.png" alt="Детективное агентство" class="w-100 d-block">
+    </div>
+
 
     <!-- Наши услуги (карточки) -->
     <div class="mt-5 pt-3">
@@ -118,6 +124,11 @@
         </div>
     </div>
 
+    <div class="container-fluid p-0 mb-5">
+        <img src="/static/images/back4.png" alt="Детективное агентство" class="w-100 d-block">
+    </div>
+
+
     <!-- Принципы работы -->
     <div class="mt-5 pt-4">
         <h2 class="text-center mb-4">Ключевые принципы</h2>
@@ -152,7 +163,7 @@
     <!-- Контактная информация и призыв к действию -->
     <div class="row mt-5 pt-4 mb-5">
         <div class="col-md-8 mx-auto">
-            <div class="contact-info p-4 p-md-5 rounded-4 shadow-sm text-center">
+            <div class="contact-info p-4 p-md-5 rounded-4 shadow-sm text-center bg-primary bg-opacity-10 border border-primary border-opacity-25">
                 <h3 class="mb-4">Как с нами связаться</h3>
                 <address class="mb-4 fs-5">
                     <strong>📍 Адрес:</strong> г. СПб, Невский проспект, д. 100, офис 15<br>
@@ -164,7 +175,6 @@
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="/contact" class="btn btn-primary btn-hover-effect btn-lg px-4">Связаться с агентством</a>
-                    <a href="/contact" class="btn btn-outline-secondary btn-hover-effect btn-lg px-4">Заполнить форму обратной связи</a>
                 </div>
                 <p class="mt-4 text-muted small">Бесплатная консультация по вашему вопросу — позвоните или напишите нам</p>
             </div>
