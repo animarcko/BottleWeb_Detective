@@ -139,8 +139,47 @@
                 </div>
             </div>
         </div>
-        
 
+                <!-- Наши преимущества -->
+        <div class="row mt-5 mb-5">
+            <div class="col-12">
+                <div class="advantages-block p-4 p-md-5 rounded-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+                    <h3 class="text-center mb-4" style="color: #1a1a2e;">Почему клиенты выбирают нас?</h3>
+                    <div class="row g-4 text-center">
+                        <div class="col-md-3">
+                            <div class="advantage-item p-3">
+                                <div class="advantage-icon mb-3" style="font-size: 2.5rem;"></div>
+                                <h5 class="fw-bold">Опыт 15+ лет</h5>
+                                <p class="text-muted mb-0">На рынке детективных услуг</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="advantage-item p-3">
+                                <div class="advantage-icon mb-3" style="font-size: 2.5rem;"></div>
+                                <h5 class="fw-bold">Оперативность</h5>
+                                <p class="text-muted mb-0">Результат в кратчайшие сроки</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="advantage-item p-3">
+                                <div class="advantage-icon mb-3" style="font-size: 2.5rem;"></div>
+                                <h5 class="fw-bold">Конфиденциальность</h5>
+                                <p class="text-muted mb-0">100% защита данных</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="advantage-item p-3">
+                                <div class="advantage-icon mb-3" style="font-size: 2.5rem;"></div>
+                                <h5 class="fw-bold">Юридическая чистота</h5>
+                                <p class="text-muted mb-0">Работаем строго в рамках закона</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
         <!-- контактный блок -->
         <div class="row mb-5 mt-5">
         <div class="col-md-10 mx-auto">
@@ -170,7 +209,7 @@
                             <span class="text-primary">*Срочные заказы выполняем в течение 24 часов.</span></p>
                         </div>
                         <div class="col-md-4 text-center">
-                            <div class="mt-2">services@taena.ru</div>
+                            <div class="mt-2">ekaterinaandreeva@gmail.com</div>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,105 @@
-/* ����� ����� ��� ����� ����� */
+/* Îáùèå ñòèëè äëÿ âñåãî ñàéòà */
 
+/* Êàðòî÷êè ñ ïðèíöèïàìè */
+.principle-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 4px solid #0d6efd;
+}
+
+    .principle-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+/* Ôóòåð */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Êàðòî÷êè êîìàíäû */
+.team-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .team-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+/* Áåéäæè ñ ãîäàìè */
+.badge-years {
+    background-color: #0d6efd;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Êàðòî÷êè ñî ñòàòèñòèêîé */
+.stat-card {
+    border: none;
+    background: linear-gradient(135deg, #1a1e24 0%, #2c3038 100%);
+    color: white;
+}
+
+/* Îáùèå êàðòî÷êè óñëóã */
+.service-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+}
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+/* Hero ñåêöèè */
+.hero-section {
+    background-color: #1a1e24;
+}
+
+/* Àíèìàöèÿ äëÿ êíîïîê */
+.btn-hover-effect {
+    transition: all 0.3s ease;
+}
+
+    .btn-hover-effect:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+/* Ñòèëè äëÿ êîíòàêòíîé èíôîðìàöèè */
+.contact-info {
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+}
+
+/* Ðàçäåëèòåëè */
+.divider-custom {
+    width: 5rem;
+    height: 0.25rem;
+    background-color: #0d6efd;
+    margin: 1rem auto;
+}
+
+/* Àäàïòèâíûå îòñòóïû */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Ôîíîâûé öâåò äëÿ âñåé ñòðàíèöû */
 body {
     background-color: #f5f5f5;
 }
 
-/* Hero ������ */
+
+/* Hero ñåêöèè */
 .hero-section {
     background-color: #1a1e24;
     color: white;
@@ -13,12 +108,7 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-photo {
-    max-height: 300px;
-    object-fit: cover;
-}
-
-/* �������� ����� */
+/* Çàãîëîâêè ñåêöèé */
 .section-title {
     text-align: center;
     margin-bottom: 30px;
@@ -27,19 +117,8 @@ body {
     padding-bottom: 10px;
 }
 
-/* �������� � ���������� */
-.principle-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border-left: 4px solid #0d6efd;
-}
-
-.principle-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* �������� ����� */
-.service-card {
+/* Êàðòî÷êè ñîòðóäíèêîâ */
+.employee-card {
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -50,73 +129,12 @@ body {
     border: none;
 }
 
-.service-card:hover {
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    transform: translateY(-3px);
-}
+/* Ýôôåêò ïðè íàâåäåíèè íà êàðòî÷êó ñîòðóäíèêà */
+    .employee-card:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
 
-.service-photo {
-    width: 100%;
-    height: 200px;
-    background-color: #6c757d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 48px;
-}
-
-.service-info {
-    padding: 20px;
-}
-
-.service-title {
-    font-size: 1.35rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #212529;
-}
-
-.service-price {
-    color: #007bff;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    border-left: 3px solid #007bff;
-    padding-left: 10px;
-}
-
-.service-desc {
-    color: #6c757d;
-    font-size: 0.95rem;
-    margin-bottom: 15px;
-    line-height: 1.4;
-}
-
-.service-badge {
-    display: inline-block;
-    background-color: #343a40;
-    color: white;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 500;
-}
-
-/* ���������� */
-.employee-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    height: 100%;
-}
-
-.employee-card:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
+/* Áëîê ñ ôîòî ñîòðóäíèêà */
 .employee-photo {
     width: 100%;
     height: 200px;
@@ -128,29 +146,104 @@ body {
     font-size: 48px;
 }
 
+/* Áëîê ñ èíôîðìàöèåé î ñîòðóäíèêå */
 .employee-info {
     padding: 15px;
 }
 
+/* Èìÿ ñîòðóäíèêà */
 .employee-name {
     font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+/* Äîëæíîñòü ñîòðóäíèêà */
+.employee-position {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    border-left: 3px solid #007bff;
+    padding-left: 10px;
+}
+
+/* Îòäåë ñîòðóäíèêà */
+.employee-department {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* Áåéäæ ñîòðóäíèêà (ñòàòóñ, îïûò) */
+.employee-badge {
+    display: inline-block;
+    background-color: #343a40;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Êàðòî÷êà óñëóãè */
+.service-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+    /* Ýôôåêò ïðè íàâåäåíèè íà êàðòî÷êó óñëóãè */
+    .service-card:hover {
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        transform: translateY(-3px);
+    }
+
+/* Áëîê ñ ôîòî óñëóãè */
+.service-photo {
+    width: 100%;
+    height: 200px;
+    background-color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+/* Áëîê ñ èíôîðìàöèåé îá óñëóãå */
+.service-info {
+    padding: 20px;
+}
+
+/* Íàçâàíèå óñëóãè */
+.service-title {
+    font-size: 1.35rem;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.employee-position {
+/* Ñòîèìîñòü óñëóãè */
+.service-price {
     color: #007bff;
     font-style: italic;
     margin-bottom: 5px;
 }
 
-.employee-department {
+/* Îïèñàíèå óñëóãè */
+.service-desc {
     color: #6c757d;
     font-size: 0.9rem;
     margin-bottom: 10px;
 }
 
-.employee-badge {
+/* Áåéäæ óñëóãè */
+.service-badge {
     display: inline-block;
     background-color: #343a40;
     color: white;
@@ -159,91 +252,9 @@ body {
     font-size: 0.8rem;
 }
 
-/* ������� */
-.table-custom {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
 
-.table-custom thead {
-    background-color: #343a40;
-    color: white;
-}
-
-.table-custom th,
-.table-custom td {
-    padding: 12px;
-}
-
-/* ������ */
-.badge-active {
-    background-color: #28a745;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.badge-vacation {
-    background-color: #ffc107;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-/* ������ ���������� */
-.stat-panel {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-}
-
-.stat-card {
-    border: none;
-    background: linear-gradient(135deg, #1a1e24 0%, #2c3038 100%);
-    color: white;
-}
-
-/* �������� */
-.contact-info {
-    background-color: #f8f9fa;
-    border-radius: 1rem;
-}
-
-/* ������ ��� */
-.badge-years {
-    background-color: #0d6efd;
-    color: white;
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-}
-
-/* ������ */
-.icon-wrap {
-    width: 24px;
-    height: 24px;
-    margin: 0 auto 12px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
-.icon-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/* ����� */
-.footer {
+/* Ôóòåð ñàéòà (íèæíÿÿ ÷àñòü ñòðàíèöû) */
+footer {
     background-color: #f8f9fa;
     padding: 20px 0;
     margin-top: 40px;
@@ -251,9 +262,10 @@ body {
     border-top: 1px solid #dee2e6;
 }
 
-/* ������ */
-.btn-hover-effect {
-    transition: all 0.3s ease;
+
+/* Îòñòóïû */
+.mt-4 {
+    margin-top: 30px;
 }
 
 .btn-hover-effect:hover {
@@ -261,7 +273,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* ������� */
+/* Àäàïòèâ */
 @media (max-width: 768px) {
     .hero-section h1 {
         font-size: 2rem;
