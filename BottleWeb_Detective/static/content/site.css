@@ -1,10 +1,17 @@
 /* Общие стили для всего сайта */
 
-/* Пример шрифта */
+/* Щрифт (заголовок) */
 .navbar-brand {
     font-family: 'Farabee', sans-serif;
+    font-weight: bold;
     font-size: 1.5rem;
     color: #fff;
+}
+
+/* Шрифт (обычный текст) */
+body {
+    font-family: 'Farabee', sans-serif;
+    font-weight: normal;
 }
 
 /* Карточки с принципами */
