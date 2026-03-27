@@ -1,9 +1,0 @@
-/* ״נטפע */
-@font-face {
-    font-family: 'Farabee';
-    src: url('/static/fonts/Farabee-Regular.eot');
-    src: url('/static/fonts/Farabee-Regular.eot?#iefix') format('embedded-opentype'), url('/static/fonts/Farabee-Regular.woff2') format('woff2'), url('/static/fonts/Farabee-Regular.woff') format('woff'), url('/static/fonts/Farabee-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
