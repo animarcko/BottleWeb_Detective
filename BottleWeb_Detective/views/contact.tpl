@@ -4,30 +4,23 @@
     <meta charset="utf-8">
     <title>{{ title or "Контакты - Детективное агентство «Тайна»" }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="site.css" rel="stylesheet">
+    <link href="/static/content/site.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- Навигация (точно как на главной) -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="/">Детективное агентство «Тайна»</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
-                <li class="nav-item"><a class="nav-link" href="/services">Услуги</a></li>
-                <li class="nav-item"><a class="nav-link" href="/team">Сотрудники</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about">О нас</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/contact">Контакты</a></li>
-            </ul>
+<!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Детективное агентство «Тайна»</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="/">Главная</a>
+                <a class="nav-link" href="/services">Услуги</a>
+                <a class="nav-link" href="/employees">Сотрудники</a>
+                <a class="nav-link" href="/about">О нас</a>
+                <a class="nav-link active" href="/contact">Контакты</a>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
 <!-- Hero секция (точно как на главной) -->
 <div class="container-fluid hero-section bg-dark text-white py-5 mb-5">
