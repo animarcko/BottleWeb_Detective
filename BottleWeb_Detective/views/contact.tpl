@@ -22,7 +22,7 @@
         </div>
     </nav>
 
-<!-- Hero секция (точно как на главной) -->
+<!-- Hero секция -->
 <div class="container-fluid hero-section bg-dark text-white py-5 mb-5">
     <div class="container text-center">
         <h1 class="display-4">Контакты</h1>
@@ -89,7 +89,7 @@
             
             <!-- Как нас найти -->
             <div class="text-center mb-5">
-                <div class="bg-light p-5 rounded-4 stat-card">
+                <div class="col-md-12">
                     <h3 class="mb-4 text-dark">Как нас найти</h3>
                     <p class="text-muted mb-4 fs-5">
                         Наш офис находится в центре Санкт-Петербурга, в пешей доступности от станции метро «Невский проспект».
