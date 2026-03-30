@@ -219,10 +219,10 @@
     </div>
 
     <!-- футер  -->
-    <footer>
-        <div class="container">
-            <p>© <span id="currentYear"></span> Детективное агентство «Тайна»</p>
-            <p class="small">Все права защищены. Лицензия на детективную деятельность № 77123456789</p>
+    <footer class="footer py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">{{ year or "2026" }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
+            <p class="small text-muted mt-2">Все материалы сайта носят информационный характер и не являются публичной офертой.</p>
         </div>
     </footer>
 

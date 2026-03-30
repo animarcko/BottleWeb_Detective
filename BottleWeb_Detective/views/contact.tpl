@@ -90,16 +90,18 @@
             <!-- Как нас найти -->
             <div class="text-center mb-5">
                 <div class="col-md-12">
-                    <h3 class="mb-4 text-dark">Как нас найти</h3>
-                    <p class="text-muted mb-4 fs-5">
-                        Наш офис находится в центре Санкт-Петербурга, в пешей доступности от станции метро «Невский проспект».
-                    </p>
-                     <span class="badge bg-primary text-white mb-2 p-2 fs-6">
-                     🚇 Метро: Невский проспект / Гостиный двор
-                     </span>
-                    <p class="small text-muted">
-                        *Предварительная запись по телефону обязательна для обеспечения конфиденциальности
-                    </p>
+                    <div class="contact-info p-4 p-md-5 rounded-4 shadow-sm text-center bg-primary bg-opacity-10 border border-primary border-opacity-25">
+                        <h3 class="mb-4 text-dark">Как нас найти</h3>
+                        <p class="text-muted mb-4 fs-5">
+                            Наш офис находится в центре Санкт-Петербурга, в пешей доступности от станции метро «Невский проспект».
+                        </p>
+                         <span class="badge bg-primary text-white mb-2 p-2 fs-6">
+                         🚇 Метро: Невский проспект / Гостиный двор
+                         </span>
+                        <p class="small text-muted">
+                            *Предварительная запись по телефону обязательна для обеспечения конфиденциальности
+                        </p>
+                    </div>
                 </div>
             </div>
             
@@ -108,7 +110,7 @@
     </div>
 </div>
 
-<!-- Футер (точно как на главной) -->
+<!-- Футер -->
 <footer class="footer py-4 mt-5">
     <div class="container text-center">
         <p class="mb-0 text-muted">{{ year or "2026" }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
