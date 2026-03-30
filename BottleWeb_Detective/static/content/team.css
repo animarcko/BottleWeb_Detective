@@ -1,0 +1,64 @@
+/* Cтили для страницы Сотрудники */
+
+/* Карточки сотрудников */
+.employee-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+    /* Эффект при наведении на карточку сотрудника */
+    .employee-card:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+/* Блок с фото сотрудника */
+.employee-photo {
+    width: 100%;
+    height: 200px;
+    background-color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+/* Блок с информацией о сотруднике */
+.employee-info {
+    padding: 15px;
+}
+
+/* Имя сотрудника */
+.employee-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Должность сотрудника */
+.employee-position {
+    color: #007bff;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Отдел сотрудника */
+.employee-department {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Бейдж сотрудника (статус, опыт) */
+.employee-badge {
+    display: inline-block;
+    background-color: #343a40;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}

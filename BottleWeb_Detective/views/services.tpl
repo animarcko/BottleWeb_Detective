@@ -6,6 +6,7 @@
     <title>Услуги — Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/content/site.css" rel="stylesheet">
+    <link href="/static/content/services.css" rel="stylesheet">
 </head>
 <body>
     <!-- навигация -->
