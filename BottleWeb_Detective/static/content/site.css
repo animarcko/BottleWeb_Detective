@@ -14,27 +14,6 @@ body {
     font-weight: normal;
 }
 
-/* Карточки с принципами */
-.principle-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-    .principle-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-
-
-/* Карточки команды */
-.team-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-    .team-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-
 /* Бейджи с годами */
 .badge-years {
     background-color: #0d6efd;

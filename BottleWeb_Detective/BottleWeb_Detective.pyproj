@@ -41,10 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
-    <Content Include="static\content\about.css" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
-    <Content Include="static\content\contact.css" />
     <Content Include="static\content\index.css" />
     <Content Include="static\content\services.css" />
     <Content Include="static\content\site.css" />
