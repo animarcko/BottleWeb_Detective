@@ -41,10 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="static\content\about.css" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
+    <Content Include="static\content\contact.css" />
+    <Content Include="static\content\index.css" />
+    <Content Include="static\content\services.css" />
     <Content Include="static\content\site.css" />
     <Content Include="static\content\style.css" />
+    <Content Include="static\content\team.css" />
     <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />

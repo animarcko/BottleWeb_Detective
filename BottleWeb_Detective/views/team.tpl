@@ -6,6 +6,7 @@
     <title>Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/content/site.css" rel="stylesheet">
+    <link href="/static/content/team.css" rel="stylesheet">
 </head>
 <body>
     <!-- навигация -->
@@ -129,10 +130,10 @@
     </div>
 
     <!-- футер -->
-    <footer>
-        <div class="container">
-            <p>© {{ year or "2025" }} Детективное агентство «Тайна»</p>
-            <p class="small">Все права защищены</p>
+    <footer class="footer py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">{{ year or "2026" }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
+            <p class="small text-muted mt-2">Все материалы сайта носят информационный характер и не являются публичной офертой.</p>
         </div>
     </footer>
 

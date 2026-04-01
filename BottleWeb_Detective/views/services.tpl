@@ -6,6 +6,7 @@
     <title>Услуги — Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/content/site.css" rel="stylesheet">
+    <link href="/static/content/services.css" rel="stylesheet">
 </head>
 <body>
     <!-- навигация -->
@@ -218,10 +219,10 @@
     </div>
 
     <!-- футер  -->
-    <footer>
-        <div class="container">
-            <p>© <span id="currentYear"></span> Детективное агентство «Тайна»</p>
-            <p class="small">Все права защищены. Лицензия на детективную деятельность № 77123456789</p>
+    <footer class="footer py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">{{ year or "2026" }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
+            <p class="small text-muted mt-2">Все материалы сайта носят информационный характер и не являются публичной офертой.</p>
         </div>
     </footer>
 

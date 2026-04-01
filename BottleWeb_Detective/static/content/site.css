@@ -17,7 +17,6 @@ body {
 /* Карточки с принципами */
 .principle-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border-left: 4px solid #0d6efd;
 }
 
     .principle-card:hover {
@@ -25,11 +24,6 @@ body {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
-/* Футер */
-.footer {
-    background-color: #f8f9fa;
-    border-top: 1px solid #dee2e6;
-}
 
 /* Карточки команды */
 .team-card {
@@ -49,23 +43,6 @@ body {
     padding: 0.5rem 1rem;
 }
 
-/* Карточки со статистикой */
-.stat-card {
-    border: none;
-    background: linear-gradient(135deg, #1a1e24 0%, #2c3038 100%);
-    color: white;
-}
-
-/* Общие карточки услуг */
-.service-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: none;
-}
-
-    .service-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
 
 /* Hero секции */
 .hero-section {
@@ -131,143 +108,10 @@ body {
     padding-bottom: 10px;
 }
 
-/* Карточки сотрудников */
-.employee-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    height: 100%;
-}
-
-    /* Эффект при наведении на карточку сотрудника */
-    .employee-card:hover {
-        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    }
-
-/* Блок с фото сотрудника */
-.employee-photo {
-    width: 100%;
-    height: 200px;
-    background-color: #6c757d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 48px;
-}
-
-/* Блок с информацией о сотруднике */
-.employee-info {
-    padding: 15px;
-}
-
-/* Имя сотрудника */
-.employee-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-/* Должность сотрудника */
-.employee-position {
-    color: #007bff;
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-/* Отдел сотрудника */
-.employee-department {
-    color: #6c757d;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-}
-
-/* Бейдж сотрудника (статус, опыт) */
-.employee-badge {
-    display: inline-block;
-    background-color: #343a40;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.8rem;
-}
-
-/* Карточка услуги */
-.service-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    height: 100%;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-    /* Эффект при наведении на карточку услуги */
-    .service-card:hover {
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-        transform: translateY(-3px);
-    }
-
-/* Блок с фото услуги */
-.service-photo {
-    width: 100%;
-    height: 200px;
-    background-color: #6c757d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 48px;
-}
-
-/* Блок с информацией об услуге */
-.service-info {
-    padding: 20px;
-}
-
-/* Название услуги */
-.service-title {
-    font-size: 1.35rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #212529;
-}
-
-/* Стоимость услуги */
-.service-price {
-    color: #007bff;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    border-left: 3px solid #007bff;
-    padding-left: 10px;
-}
-
-/* Описание услуги */
-.service-desc {
-    color: #6c757d;
-    font-size: 0.95rem;
-    margin-bottom: 15px;
-    line-height: 1.4;
-}
-
-/* Бейдж услуги */
-.service-badge {
-    display: inline-block;
-    background-color: #343a40;
-    color: white;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 500;
-}
 
 
 /* Футер сайта (нижняя часть страницы) */
-footer {
+.footer {
     background-color: #f8f9fa;
     padding: 20px 0;
     margin-top: 40px;
