@@ -70,7 +70,6 @@
     <Content Include="views\about.tpl" />
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
-    <Content Include="views\layout.tpl" />
     <Content Include="views\services.tpl">
       <SubType>Code</SubType>
     </Content>
