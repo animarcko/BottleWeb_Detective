@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Услуги — Детективное агентство «Тайна»</title>
+    <title>Отзывы — Детективное агентство «Тайна»</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/content/site.css" rel="stylesheet">
     <link href="/static/content/services.css" rel="stylesheet">
@@ -19,7 +19,7 @@
                 <a class="nav-link" href="/employees">Сотрудники</a>
                 <a class="nav-link" href="/about">О нас</a>
                 <a class="nav-link" href="/contact">Контакты</a>
-               <a class="nav-link active" href="/reviews">Отзывы</a>
+                <a class="nav-link active" href="/reviews">Отзывы</a>
             </div>
         </div>
     </nav>
@@ -31,33 +31,54 @@
         </div>
     </div>
 
-   
+    <!-- Основной контент -->
+    <div class="container">
+        <h2 class="mb-4">Что говорят клиенты</h2>
+        % if reviews:
+            <div class="row mb-5">
+                % for review in reviews:
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <p class="card-text">{{ review['text'] }}</p>
+                            <footer class="blockquote-footer mt-2">
+                                {{ review['author'] }}, <cite>{{ review['date'] }}</cite>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                % end
+            </div>
+        % else:
+            <p class="text-muted mb-5">Пока нет отзывов. Станьте первым!</p>
+        % end
 
-    <!-- футер  -->
+        <h2 class="mb-3">Оставить отзыв</h2>
+        <form method="post" action="/reviews" class="mb-5">
+            <div class="mb-3">
+                <label for="author" class="form-label">Автор (Ник)</label>
+                <input type="text" class="form-control" id="author" name="author" required>
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Текст (Описание)</label>
+                <textarea class="form-control" id="text" name="text" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Дата</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Разместить</button>
+        </form>
+    </div>
+
+    <!-- футер -->
     <footer class="footer py-4 mt-5">
         <div class="container text-center">
-            <p class="mb-0 text-muted">{{ year or "2026" }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
+            <p class="mb-0 text-muted">{{ year }} Детективное агентство «Тайна» — Ваша уверенность под защитой.</p>
             <p class="small text-muted mt-2">Все материалы сайта носят информационный характер и не являются публичной офертой.</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // устанавливаем текущий год в футере
-        document.addEventListener('DOMContentLoaded', function() {
-            const yearSpan = document.getElementById('currentYear');
-            if (yearSpan) {
-                yearSpan.textContent = new Date().getFullYear();
-            }
-            console.log('Страница услуг детективного агентства «Тайна» загружена');
-            
-            const cards = document.querySelectorAll('.service-card');
-            cards.forEach((card, index) => {
-                card.addEventListener('click', () => {
-                    console.log(`Пользователь кликнул по услуге #${index + 1}`);
-                });
-            });
-        });
-    </script>
 </body>
 </html>
