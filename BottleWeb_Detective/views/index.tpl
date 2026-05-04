@@ -18,6 +18,7 @@
                 <a class="nav-link" href="/employees">Сотрудники</a>
                 <a class="nav-link" href="/about">О нас</a>
                 <a class="nav-link" href="/contact">Контакты</a>
+                <a class="nav-link" href="/reviews">Отзывы</a>
             </div>
         </div>
     </nav>

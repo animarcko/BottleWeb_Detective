@@ -38,9 +38,9 @@ def about():
 @route('/employees')
 @view('team')
 def services():
-    """Renders the team page."""
+    """Renders the employees page."""
     return dict(
-        title='Team',
+        title='Employees',
         year=datetime.now().year
     )
 
@@ -53,12 +53,12 @@ def services():
         year=datetime.now().year
     )
 
-@route('/team')
-@view('team')
+
+@route('/reviews')
+@view('reviews')
 def team():
-    """Renders the team page."""
+    """Renders the reviews page."""
     return dict(
-        title='Employee',
+        title='Reviews',
         year=datetime.now().year
     )
-
