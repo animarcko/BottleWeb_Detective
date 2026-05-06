@@ -56,11 +56,11 @@
         <h2 class="mb-3">Оставить отзыв</h2>
         <form method="post" action="/reviews" class="mb-5">
             <div class="mb-3">
-                <label for="author" class="form-label">Автор (Ник)</label>
+                <label for="author" class="form-label">Автор</label>
                 <input type="text" class="form-control" id="author" name="author" required>
             </div>
             <div class="mb-3">
-                <label for="text" class="form-label">Текст (Описание)</label>
+                <label for="text" class="form-label">Текст)</label>
                 <textarea class="form-control" id="text" name="text" rows="3" required></textarea>
             </div>
             <div class="mb-3">
