@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/content/site.css" rel="stylesheet">
     <link href="/static/content/services.css" rel="stylesheet">
+    <link href="/static/content/reviews.css" rel="stylesheet">
 </head>
 <body>
     <!-- навигация -->
@@ -27,48 +28,56 @@
     <!-- шапка -->
     <div class="container-fluid hero-section bg-dark text-white py-5 mb-5">
         <div class="container text-center">
-            <h1 class="display-4">Отзывы</h1>
+            <h1 class="display-4">Отзывы наших клиентов</h1>
+            <p class="lead">Ваше мнение важно для нас</p>
         </div>
     </div>
 
-    <!-- Основной контент -->
     <div class="container">
-        <h2 class="mb-4">Что говорят клиенты</h2>
-        % if reviews:
-            <div class="row mb-5">
-                % for review in reviews:
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <p class="card-text">{{ review['text'] }}</p>
-                            <footer class="blockquote-footer mt-2">
-                                {{ review['author'] }}, <cite>{{ review['date'] }}</cite>
-                            </footer>
-                        </div>
+        <!-- Форма добавления отзыва -->
+        <div class="form-container">
+            <h3 class="mb-4">Оставить отзыв</h3>
+            <form method="POST" action="/reviews">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="nickname" class="form-label">Ваше имя или ник *</label>
+                        <input type="text" class="form-control" id="nickname" name="nickname" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="date" class="form-label">Дата *</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="text" class="form-label">Текст отзыва *</label>
+                        <textarea class="form-control" id="text" name="text" rows="4" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Отправить отзыв</button>
                     </div>
                 </div>
+            </form>
+        </div>
+
+        <!-- Список отзывов -->
+        <h3 class="mb-4">Отзывы клиентов</h3>
+        
+        % if not reviews:
+            <div class="alert alert-info">Пока нет ни одного отзыва. Будьте первым!</div>
+        % else:
+            <div class="reviews-list">
+                % for review in reviews:
+                    <div class="card review-card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="review-nickname mb-0">{{ review['nickname'] }}</h5>
+                                <span class="review-date">{{ review['date'] }}</span>
+                            </div>
+                            <p class="card-text">{{ review['text'] }}</p>
+                        </div>
+                    </div>
                 % end
             </div>
-        % else:
-            <p class="text-muted mb-5">Пока нет отзывов. Станьте первым!</p>
         % end
-
-        <h2 class="mb-3">Оставить отзыв</h2>
-        <form method="post" action="/reviews" class="mb-5">
-            <div class="mb-3">
-                <label for="author" class="form-label">Автор</label>
-                <input type="text" class="form-control" id="author" name="author" required>
-            </div>
-            <div class="mb-3">
-                <label for="text" class="form-label">Текст)</label>
-                <textarea class="form-control" id="text" name="text" rows="3" required></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="date" class="form-label">Дата</label>
-                <input type="date" class="form-control" id="date" name="date" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Разместить</button>
-        </form>
     </div>
 
     <!-- футер -->

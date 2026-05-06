@@ -45,6 +45,7 @@
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
     <Content Include="static\content\index.css" />
+    <Content Include="static\content\review.css" />
     <Content Include="static\content\services.css" />
     <Content Include="static\content\site.css" />
     <Content Include="static\content\style.css" />
