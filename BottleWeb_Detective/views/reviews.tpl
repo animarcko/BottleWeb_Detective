@@ -41,15 +41,35 @@
                 <div class="row g-3">
                     <div class="col-md-4">
                         <label for="nickname" class="form-label">Ваше имя или ник *</label>
-                        <input type="text" class="form-control" id="nickname" name="nickname" required>
+                        <input type="text" 
+                               class="form-control {{ 'is-invalid' if 'nickname' in errors else '' }}" 
+                               id="nickname" 
+                               name="nickname" 
+                               value="{{ form_data.get('nickname', '') }}">
+                        % if 'nickname' in errors:
+                            <div class="invalid-feedback">{{ errors['nickname'] }}</div>
+                        % end
                     </div>
                     <div class="col-md-4">
                         <label for="date" class="form-label">Дата *</label>
-                        <input type="date" class="form-control" id="date" name="date" required>
+                        <input type="date" 
+                               class="form-control {{ 'is-invalid' if 'date' in errors else '' }}" 
+                               id="date" 
+                               name="date" 
+                               value="{{ form_data.get('date', '') }}">
+                        % if 'date' in errors:
+                            <div class="invalid-feedback">{{ errors['date'] }}</div>
+                        % end
                     </div>
                     <div class="col-12">
                         <label for="text" class="form-label">Текст отзыва *</label>
-                        <textarea class="form-control" id="text" name="text" rows="4" required></textarea>
+                        <textarea class="form-control {{ 'is-invalid' if 'text' in errors else '' }}" 
+                                  id="text" 
+                                  name="text" 
+                                  rows="4">{{ form_data.get('text', '') }}</textarea>
+                        % if 'text' in errors:
+                            <div class="invalid-feedback">{{ errors['text'] }}</div>
+                        % end
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Отправить отзыв</button>
@@ -59,7 +79,7 @@
         </div>
 
         <!-- Список отзывов -->
-        <h3 class="mb-4">Отзывы клиентов</h3>
+        <h3 class="mb-4 mt-5">Отзывы клиентов</h3>
         
         % if not reviews:
             <div class="alert alert-info">Пока нет ни одного отзыва. Будьте первым!</div>
