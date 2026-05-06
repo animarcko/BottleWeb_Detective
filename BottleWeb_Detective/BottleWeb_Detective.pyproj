@@ -31,6 +31,7 @@
   <ItemGroup>
     <Compile Include="app.py" />
     <Compile Include="routes.py" />
+    <Compile Include="test_reviews.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\" />
